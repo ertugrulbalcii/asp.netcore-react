@@ -1,0 +1,91 @@
+/* ------------------CRUD CSS----------------------*/
+.btn_crud {
+    margin-left: 10px;
+}
+.calisan_ekle_kisim {
+    background-color: rgb(217, 239, 245);
+    padding:30px;
+    border-radius: 10px;  
+}
+
+.table_kismi{
+    background-color: rgb(179, 218, 218);
+    margin-top:25px;
+    
+}
+
+.add_btn {
+    background-color: rgb(28, 107, 3);
+    color: white;
+    border:1px solid  rgb(28, 107, 3);
+    margin-left: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+
+}
+.add_btn:hover{
+    background-color: rgb(59, 128, 38);
+}
+
+.list{
+    list-style-type: none;
+}
+
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.center-container {
+    width: 80%;
+
+}
+
+
+/*---------------------- TODO CSS ---------------------------*/
+input{
+    width: 58%;
+}
+ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+li{
+    padding: 5px 20px;
+    width: 70%;
+    list-style-type: none;
+    text-align: start;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .7px;
+   
+}
+
+.todo-list{
+    width: 100%;
+    border:1px solid palevioletred;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.todo-btn{
+    background-color: rgb(58, 233, 58);
+    margin-left: 50px;
+    width: 50px;
+    
+}
+.ekle-btn{
+    background-color: red;
+    width: 50px;
+    
+}
